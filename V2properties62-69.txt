@@ -1,0 +1,670 @@
+[{
+  "nodes": [
+    {
+      "id": "61",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 31",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "62",
+      "labels": ["Directive"],
+      "properties": {
+        "Reference": "Directive (EU) 2022/2555",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "63",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Consult and share information with CSIRTs"
+      }
+    },
+    {
+      "id": "64",
+      "labels": ["Directive"],
+      "properties": {
+        "Reference": "Directive (EU) 2022/2555",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "65",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Request technical advice and assistance from designated authorities"
+      }
+    },
+    {
+      "id": "66",
+      "labels": ["European Supervisory Authority"],
+      "properties": {
+        "Function": "Establish mechanisms for sharing effective practices across financial sectors"
+      }
+    },
+    {
+      "id": "67",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Cooperate closely with each other and exchange information to carry out duties"
+      }
+    },
+    {
+      "id": "68",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 50",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "69",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Jurisdiction": "EU",
+        "Task": "Issue an order requiring the natural or legal person to cease conduct that is in breach of this Regulation and to desist from repeating that conduct"
+      }
+    },
+    {
+      "id": "70",
+      "labels": ["Member State"],
+      "properties": {
+        "Action": "Lay down rules establishing appropriate administrative penalties and remedial measures for breaches of this Regulation"
+      }
+    },
+    {
+      "id": "71",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Power": "Apply at least the following administrative penalties or remedial measures for breaches of this Regulation"
+      }
+    },
+    {
+      "id": "72",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "Regulation (EU) XXXX/XXXX",
+        "Jurisdiction": "EU",
+        "Article": "Article 50-51"
+      }
+    },
+    {
+      "id": "73",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Require corrective and remedial measures for breaches of the requirements of this Regulation"
+      }
+    },
+    {
+      "id": "74",
+      "labels": ["Member State"],
+      "properties": {
+        "Action": "Ensure their effective implementation and confer on competent authorities the power to apply at least the following administrative penalties or remedial measures"
+      }
+    },
+    {
+      "id": "75",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 50, paragraph 4",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "76",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 51, paragraph 1",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "77",
+      "labels": ["Member State"],
+      "properties": {
+        "Action": "May choose not to establish administrative penalties or remedial measures for breaches of this Regulation"
+      }
+    },
+    {
+      "id": "78",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Ensure coordination with judicial, prosecuting, or criminal justice authorities within their jurisdiction"
+      }
+    },
+    {
+      "id": "79",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "Regulation (EU) XXXX/XXXX",
+        "Jurisdiction": "EU",
+        "Article": "Article 52-55"
+      }
+    },
+    {
+      "id": "80",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Publish any decision imposing an administrative penalty on their official websites without undue delay"
+      }
+    },
+    {
+      "id": "81",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Notification Duties to European Commission, ESMA, EBA, and EIOPA"
+      }
+    },
+    {
+      "id": "82",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 52, paragraph 1-6",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "83",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Defer the publication of a penalty until the reasons for non-publication are no longer applicable"
+      }
+    },
+    {
+      "id": "84",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "",
+        "Jurisdiction": "EU",
+        "Article": "Article 54-55"
+      }
+    },
+    {
+      "id": "85",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Professional Secrecy Obligation"
+      }
+    },
+    {
+      "id": "86",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 55, paragraph 1-3",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "87",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "Regulation (EU) XXXX/XXXX",
+        "Jurisdiction": "EU",
+        "Article": "Article 55"
+      }
+    },
+    {
+      "id": "88",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Publish updates on appeals before judicial authorities"
+      }
+    },
+    {
+      "id": "89",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Duration of Publication of Administrative Penalties"
+      }
+    },
+    {
+      "id": "90",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 54, paragraph 6",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "91",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "",
+        "Jurisdiction": "EU",
+        "Article": "Article 54-55"
+      }
+    },
+    {
+      "id": "92",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Task": "Publish information on penalties imposed, including type and nature of breach"
+      }
+    },
+    {
+      "id": "93",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Publication Requirements for Administrative Penalties"
+      }
+    },
+    {
+      "id": "94",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "Article 54, paragraph 1-5",
+        "Title": "",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "95",
+      "labels": ["Law"],
+      "properties": {
+        "Title": "Regulation (EU) XXXX/XXXX",
+        "Jurisdiction": "EU",
+        "Article": "Article 52-55"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "1",
+      "labels": ["Regulation"],
+      "properties": {
+        "Paragraph": "2022/2554",
+        "Title": "Digital Operational Resilience",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "59",
+      "labels": ["Regulation"],
+      "properties": {
+        "Jurisdiction": "EU",
+        "Reference": "Regulation (EU) 2019/881"
+      }
+    },
+    {
+      "id": "60",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "European Union Agency for Cybersecurity (ENISA)"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "61",
+      "labels": ["Regulation"],
+      "properties": {
+        "Jurisdiction": "EU",
+        "Reference": "Directive (EU) 2022/2555"
+      }
+    },
+    {
+      "id": "62",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Description": "competent authorities under this Regulation"
+      }
+    },
+    {
+      "id": "63",
+      "labels": ["Law"],
+      "properties": {
+        "Jurisdiction": "EU",
+        "Reference": "Union or national law"
+      }
+    },
+    {
+      "id": "64",
+      "labels": ["Regulation"],
+      "properties": {
+        "Title": "Digital Operational Resilience for the Financial Sector Regulation (EU) 2022/2554",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "65",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Directive (EU) 2015/2366"
+      }
+    },
+    {
+      "id": "66",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EC) No 1060/2009",
+        "Paragraph": "Article 59(1)"
+      }
+    },
+    {
+      "id": "67",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 648/2012",
+        "Title": "Amendments to Regulation (EU) No 648/2012"
+      }
+    },
+    {
+      "id": "68",
+      "labels": ["ESAs"],
+      "properties": {
+        "Description": "European Supervisory Authorities"
+      }
+    },
+    {
+      "id": "69",
+      "labels": ["Committee"],
+      "properties": {
+        "Title": "Committee of European Auditing Oversight Bodies"
+      }
+    },
+    {
+      "id": "70",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Directive 2006/43/EC"
+      }
+    },
+    {
+      "id": "71",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014"
+      }
+    },
+    {
+      "id": "72",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 909/2014"
+      }
+    },
+    {
+      "id": "73",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2016/1011"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "75",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 909/2014"
+      }
+    },
+    {
+      "id": "76",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554"
+      }
+    },
+    {
+      "id": "77",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Amendments in Article 61: Amendments to Regulation (EU) No 909/2014"
+      }
+    },
+    {
+      "id": "78",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014"
+      }
+    },
+    {
+      "id": "79",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2016/1011"
+      }
+    },
+    {
+      "id": "80",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Simplified Overview of the Amendments in Article 61"
+      }
+    },
+    {
+      "id": "81",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 909/2014"
+      }
+    },
+    {
+      "id": "82",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Amendments to Article 34"
+      }
+    },
+    {
+      "id": "83",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014"
+      }
+    },
+    {
+      "id": "84",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Amendment to Article 79"
+      }
+    },
+    {
+      "id": "85",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554"
+      }
+    },
+    {
+      "id": "86",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Amendment to Article 80"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "87",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "88",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 45"
+      }
+    },
+    {
+      "id": "89",
+      "labels": ["Organization"],
+      "properties": {
+        "Name": "European Securities and Markets Authority (ESMA)",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "90",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 27g"
+      }
+    },
+    {
+      "id": "91",
+      "labels": ["Organization"],
+      "properties": {
+        "Name": "European System of Central Banks (ESCB)",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "92",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 27h"
+      }
+    },
+    {
+      "id": "93",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014",
+        "Paragraph": "Article 6"
+      }
+    },
+    {
+      "id": "94",
+      "labels": ["Organization"],
+      "properties": {
+        "Name": "ESMA",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "95",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 27i"
+      }
+    },
+    {
+      "id": "96",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014",
+        "Paragraph": "Article 45"
+      }
+    },
+    {
+      "id": "97",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "98",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 45"
+      }
+    },
+    {
+      "id": "99",
+      "labels": ["Organization"],
+      "properties": {
+        "Name": "ESMA",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "100",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2016/1011",
+        "Paragraph": "Article 6"
+      }
+    },
+    {
+      "id": "101",
+      "labels": ["Organization"],
+      "properties": {
+        "Name": "European Securities and Markets Authority",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "102",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) 2022/2554",
+        "Paragraph": "Article 27g"
+      }
+    },
+    {
+      "id": "103",
+      "labels": ["Regulation"],
+      "properties": {
+        "Reference": "Regulation (EU) No 600/2014",
+        "Paragraph": "Article 45"
+      }
+    }
+  ]
+},
+{
+  "nodes": [
+    {
+      "id": "104",
+      "labels": ["Regulation"],
+      "properties": {
+        "Application Date": "January 17, 2025",
+        "Binding Nature": "Fully binding and directly applicable",
+        "Jurisdiction": "EU"
+      }
+    },
+    {
+      "id": "105",
+      "labels": ["Document"],
+      "properties": {
+        "Title": "Official Journal of the European Union"
+      }
+    },
+    {
+      "id": "106",
+      "labels": ["Competent Authority"],
+      "properties": {
+        "Jurisdiction": "EU"
+      }
+    }
+  ]
+}
+]

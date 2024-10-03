@@ -1,0 +1,20 @@
+{"Node1": "European Parliament", "Node2": "Regulation", "Relationship": "CO-DECIDES"}
+{"Node1": "Council of the European Union", "Node2": "Regulation", "Relationship": "CO-DECIDES"}
+{"Node1": "Regulation", "Node2": "Financial Sector", "Relationship": "REGULATES"}
+{"Node1": "European Parliament", "Node2": "Council of the European Union", "Relationship": "CO-DECIDES_WITH"}
+{"Node1": "Regulation", "Node2": "ICT Risk", "Relationship": "REGULATES"}
+{"Node1": "European Parliament", "Node2": "Financial Entity", "Relationship": "OVERSEES"}
+{"Node1": "Regulation", "Node2": "European Supervisory Authority", "Relationship": "COOPERATES_WITH"}
+{"Node1": "Council of the European Union", "Node2": "Financial Entity", "Relationship": "OVERSEES"}
+{"Node1": "Regulation", "Node2": "Regulations (EC) No 1060/2009", "Relationship": "AMENDS"}
+{"Node1": "Regulation", "Node2": "Regulations (EU) No 648/2012", "Relationship": "AMENDS"}
+{"Node1": "Regulation", "Node2": "Financial Sector", "Relationship": "REGULATES"}
+{"Node1": "European Parliament", "Node2": "Council of the European Union", "Relationship": "CO-DECIDES_WITH"}
+{"Node1": "Regulation", "Node2": "ICT Risk", "Relationship": "REGULATES"}
+{"Node1": "European Parliament", "Node2": "Financial Entity", "Relationship": "OVERSEES"}
+{"Node1": "Regulation", "Node2": "European Supervisory Authority", "Relationship": "COOPERATES_WITH"}
+{"Node1": "Council of the European Union", "Node2": "Financial Entity", "Relationship": "REGULATES"}
+{"Node1": "European Parliament", "Node2": "ICT Risk", "Relationship": "MONITORS"}
+{"Node1": "Regulation", "Node2": "Cyber Threats", "Relationship": "ADDRESS"}
+{"Node1": "Council of the European Union", "Node2": "Financial System", "Relationship": "PROTECTS"}
+{"Node1": "European Parliament", "Node2": "Digitalisation", "Relationship": "FACILITATES"}

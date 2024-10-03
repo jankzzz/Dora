@@ -1,0 +1,2078 @@
+[
+    {
+        "nodes": [
+    {
+        "id": "1",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "2",
+        "labels": [
+            "Financial Sector"
+        ],
+        "properties": {
+            "Type": "ICT Risk"
+        }
+    },
+    {
+        "id": "3",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "4",
+        "labels": [
+            "Financial Transmission Channels"
+        ]
+    },
+    {
+        "id": "5",
+        "labels": [
+            "Union's Financial System"
+        ]
+    },
+    {
+        "id": "6",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "7",
+        "labels": [
+            "Financial Sector"
+        ],
+        "properties": {
+            "Type": "ICT Risk"
+        }
+    },
+    {
+        "id": "8",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "9",
+        "labels": [
+            "European Supervisory Authorities"
+        ]
+    },
+    {
+        "id": "10",
+        "labels": [
+            "Single Rulebook"
+        ]
+    },
+    {
+        "id": "11",
+        "labels": [
+            "Internal Market"
+        ]
+    },
+    {
+        "id": "12",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "13",
+        "labels": [
+            "Financial Sector"
+        ],
+        "properties": {
+            "Type": "ICT Risk"
+        }
+    },
+    {
+        "id": "14",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "15",
+        "labels": [
+            "European Supervisory Authorities"
+        ]
+    },
+    {
+        "id": "16",
+        "labels": [
+            "Internal Market"
+        ]
+    },
+    {
+        "id": "17",
+        "labels": [
+            "Financial Stability"
+        ]
+    },
+    {
+        "id": "18",
+        "labels": [
+            "Single Rulebook"
+        ]
+    },
+    {
+        "id": "19",
+        "labels": [
+            "ICT Risk Management Capabilities"
+        ]
+    },
+    {
+        "id": "20",
+        "labels": [
+            "Operational Resilience Testing"
+        ]
+    },
+    {
+        "id": "21",
+        "labels": [
+            "ICT Third-Party Risk Monitoring"
+        ]
+    },
+    {
+        "id": "22",
+        "labels": [
+            "Union Level ICT Risk Provisions"
+        ]
+    },
+    {
+        "id": "23",
+        "labels": [
+            "Smooth Functioning of the Internal Market"
+        ]
+    },
+    {
+        "id": "24",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554"
+        }
+    },
+    {
+        "id": "25",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "26",
+        "labels": [
+            "ICT Systems"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "27",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "28",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 648/2012"
+        }
+    },
+    {
+        "id": "29",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "30",
+        "labels": [
+            "ICT Systems"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "31",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "32",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "33",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "34",
+        "labels": [
+            "ICT Systems"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "35",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "36",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 909/2014"
+        }
+    },
+    {
+        "id": "37",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "38",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "39",
+        "labels": [
+            "ICT Systems"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "40",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "41",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) 2016/1011"
+        }
+    },
+    {
+        "id": "42",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 909/2014"
+        }
+    },
+    {
+        "id": "43",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "44",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "45",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "46",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {
+            "Type": "Union financial entities"
+        }
+    },
+    {
+        "id": "47",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) 2016/1011"
+        }
+    },
+    {
+        "id": "48",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 909/2014"
+        }
+    },
+    {
+        "id": "49",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "50",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "51",
+        "labels": [
+            "ICT Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "52",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {
+            "Type": "Union financial entities"
+        }
+    },
+    {
+        "id": "53",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) 2016/1011"
+        }
+    },
+    {
+        "id": "54",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 909/2014"
+        }
+    },
+    {
+        "id": "55",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "56",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "57",
+        "labels": [
+            "ICT Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "58",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {
+            "Type": "Union financial entities"
+        }
+    },
+    {
+        "id": "59",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) 2016/1011"
+        }
+    },
+    {
+        "id": "60",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 909/2014"
+        }
+    },
+    {
+        "id": "61",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "(EU) No 600/2014"
+        }
+    },
+    {
+        "id": "62",
+        "labels": [
+            "Financial System"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "63",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "64",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "65",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "66",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "67",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "68",
+        "labels": [
+            "Financial Supervisor"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "69",
+        "labels": [
+            "ESA"
+        ],
+        "properties": {
+            "Acronym": "European Supervisory Authorities"
+        }
+    },
+    {
+        "id": "70",
+        "labels": [
+            "ICT-related Incident"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "71",
+        "labels": [
+            "Financial Sector"
+        ],
+        "properties": {
+            "Type": "ICT Risk"
+        }
+    },
+    {
+        "id": "72",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "73",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "Dora Regulation",
+            "Title": "Digital Operational Resilience for Financial Entities",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "74",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "75",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "76",
+        "labels": [
+            "Lead Overseer"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "77",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "Dora Regulation",
+            "Title": "Digital Operational Resilience for Financial Entities",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "78",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "79",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "80",
+        "labels": [
+            "Lead Overseer"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "81",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "Dora Regulation",
+            "Title": "Union Oversight Framework"
+        }
+    },
+    {
+        "id": "82",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "83",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "84",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "85",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "Union Oversight Framework",
+            "Title": "Union Oversight Framework"
+        }
+    },
+    {
+        "id": "86",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "87",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "88",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "89",
+        "labels": [
+            "Union"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "90",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "91",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "92",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "Dora Regulation",
+            "Title": "Oversight Framework for ICT Third-Party Service Providers"
+        }
+    },
+    {
+        "id": "93",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "94",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Securities and Markets Authority (ESMA)"
+        }
+    },
+    {
+        "id": "95",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "96",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "97",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "98",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "99",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "100",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "101",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "102",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "103",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "104",
+        "labels": [
+            "Directive",
+            "Regulation"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "105",
+        "labels": [
+            "EU Parliament",
+            "Council"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "106",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "107",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "108",
+        "labels": [
+            "Financial Entities"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "109",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "110",
+        "labels": [
+            "ICT Asset"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "111",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "112",
+        "labels": [
+            "ICT Asset"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "113",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "114",
+        "labels": [
+            "Microenterprise"
+        ],
+        "properties": {
+            "annual_turnover": "EUR 2 million",
+            "balance_sheet_total": "EUR 2 million"
+        }
+    },
+    {
+        "id": "115",
+        "labels": [
+            "Trading Venue"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "116",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "117",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "government"
+        }
+    },
+    {
+        "id": "118",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "119",
+        "labels": [
+            "Management Body"
+        ]
+    },
+    {
+        "id": "120",
+        "labels": [
+            "ICT Risk Management Framework"
+        ],
+        "properties": {
+            "status": "established"
+        }
+    },
+    {
+        "id": "121",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "122",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "government"
+        }
+    },
+    {
+        "id": "123",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "124",
+        "labels": [
+            "Management Body"
+        ]
+    },
+    {
+        "id": "125",
+        "labels": [
+            "ICT Risk Management Framework"
+        ],
+        "properties": {
+            "status": "established"
+        }
+    },
+    {
+        "id": "126",
+        "labels": [
+            "Microenterprise"
+        ]
+    },
+    {
+        "id": "127",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "128",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "129",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "130",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "131",
+        "labels": [
+            "Financial Entity's Business Strategy"
+        ]
+    },
+    {
+        "id": "132",
+        "labels": [
+            "ICT Reference Architecture"
+        ]
+    },
+    {
+        "id": "133",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "134",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "135",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "136",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "137",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ]
+    },
+    {
+        "id": "138",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "139",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "140",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "141",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "142",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ]
+    },
+    {
+        "id": "143",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "144",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "145",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "146",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "147",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ]
+    },
+    {
+        "id": "148",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "149",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "150",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "151",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "152",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ]
+    },
+    {
+        "id": "153",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "154",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "155",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "156",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "157",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "158",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "159",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "160",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "161",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "162",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "163",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "164",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "165",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "166",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "167",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "168",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "169",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "170",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "171",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "172",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "173",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "174",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "175",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "176",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "177",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "178",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "179",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "180",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "181",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "182",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "183",
+        "labels": [
+            "Client"
+        ]
+    },
+    {
+        "id": "184",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "185",
+        "labels": [
+            "European Central Bank (ECB)"
+        ]
+    },
+    {
+        "id": "186",
+        "labels": [
+            "Computer Security Incident Response Team (CSIRT)"
+        ]
+    },
+    {
+        "id": "187",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "188",
+        "labels": [
+            "Public Authority"
+        ],
+        "properties": {
+            "type": "Regulator"
+        }
+    },
+    {
+        "id": "189",
+        "labels": [
+            "ICT Risk Management Framework"
+        ]
+    },
+    {
+        "id": "190",
+        "labels": [
+            "Digital Operational Resilience Strategy"
+        ]
+    },
+    {
+        "id": "191",
+        "labels": [
+            "Information and ICT Assets Inventory"
+        ],
+        "properties": {
+            "type": "Inventory"
+        }
+    },
+    {
+        "id": "192",
+        "labels": [
+            "Client/Host Member State"
+        ]
+    },
+    {
+        "id": "193",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ]
+    },
+    {
+        "id": "194",
+        "labels": [
+            "Joint Committee"
+        ]
+    },
+    {
+        "id": "195",
+        "labels": [
+            "European Union Agency for Cybersecurity (ENISA)"
+        ]
+    },
+    {
+        "id": "196",
+        "labels": [
+            "European Central Bank (ECB)"
+        ]
+    },
+    {
+        "id": "197",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ]
+    },
+    {
+        "id": "198",
+        "labels": [
+            "Joint Committee"
+        ]
+    },
+    {
+        "id": "199",
+        "labels": [
+            "Financial Entities"
+        ]
+    },
+    {
+        "id": "200",
+        "labels": [
+            "National Competent Authorities"
+        ]
+    },
+    {
+        "id": "201",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ]
+    },
+    {
+        "id": "202",
+        "labels": [
+            "Joint Committee"
+        ]
+    },
+    {
+        "id": "203",
+        "labels": [
+            "Financial Entities"
+        ]
+    },
+    {
+        "id": "204",
+        "labels": [
+            "National Competent Authorities"
+        ]
+    },
+    {
+        "id": "205",
+        "labels": [
+            "Financial Entities"
+        ]
+    },
+    {
+        "id": "206",
+        "labels": [
+            "Joint Committee"
+        ]
+    },
+    {
+        "id": "207",
+        "labels": [
+            "National Competent Authorities"
+        ]
+    },
+    {
+        "id": "208",
+        "labels": [
+            "Financial Entities"
+        ]
+    },
+    {
+        "id": "209",
+        "labels": [
+            "Joint Committee"
+        ]
+    },
+    {
+        "id": "210",
+        "labels": [
+            "National Competent Authorities"
+        ]
+    },
+    {
+        "id": "211",
+        "labels": [
+            "Risk Management Controls"
+        ]
+    },
+    {
+        "id": "212",
+        "labels": [
+            "Accreditation Body"
+        ]
+    },
+    {
+        "id": "213",
+        "labels": [
+            "Threat Intelligence Provider"
+        ]
+    },
+    {
+        "id": "214",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "215",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "216",
+        "labels": [
+            "Internal Tester"
+        ]
+    },
+    {
+        "id": "217",
+        "labels": [
+            "External Tester"
+        ]
+    },
+    {
+        "id": "218",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "219",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "220",
+        "labels": [
+            "Internal Tester"
+        ]
+    },
+    {
+        "id": "221",
+        "labels": [
+            "External Tester"
+        ]
+    },
+    {
+        "id": "222",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ]
+    },
+    {
+        "id": "223",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "224",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "225",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ]
+    },
+    {
+        "id": "226",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {
+            "Type": "ICT risk"
+        }
+    },
+    {
+        "id": "227",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Supervisory Authorities (ESAs)"
+        }
+    },
+    {
+        "id": "228",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {
+            "Type": "Microenterprise"
+        }
+    },
+    {
+        "id": "229",
+        "labels": [
+            "Lead Overseer"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "230",
+        "labels": [
+            "Critical ICT third-party service provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "231",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "232",
+        "labels": [
+            "Lead Overseer"
+        ]
+    },
+    {
+        "id": "233",
+        "labels": [
+            "Critical ICT third-party service provider"
+        ]
+    },
+    {
+        "id": "234",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "235",
+        "labels": [
+            "Lead Overseer"
+        ]
+    },
+    {
+        "id": "236",
+        "labels": [
+            "Critical ICT third-party service provider"
+        ]
+    },
+    {
+        "id": "237",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "238",
+        "labels": [
+            "Lead Overseer"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "239",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "240",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "241",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "242",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "243",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "244",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "245",
+        "labels": [
+            "Regulatory Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "246",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Designation": "Regulatory Authority"
+        }
+    },
+    {
+        "id": "247",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "248",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "249",
+        "labels": [
+            "Cooperation Group"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "250",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "251",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Designation": "Regulatory Authority"
+        }
+    },
+    {
+        "id": "252",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "253",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "254",
+        "labels": [
+            "Cooperation Group"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "255",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "256",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "257",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "258",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "259",
+        "labels": [
+            "Cooperation Group"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "260",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "261",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "262",
+        "labels": [
+            "Financial Entity"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "263",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "264",
+        "labels": [
+            "Cooperation Group"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "265",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "266",
+        "labels": [
+            "Competent Authority"
+        ]
+    },
+    {
+        "id": "267",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "268",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ]
+    },
+    {
+        "id": "269",
+        "labels": [
+            "Cooperation Group"
+        ]
+    },
+    {
+        "id": "270",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ]
+    },
+    {
+        "id": "271",
+        "labels": [
+            "Regulation"
+        ]
+    },
+    {
+        "id": "272",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "273",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ]
+    },
+    {
+        "id": "274",
+        "labels": [
+            "Cooperation Group"
+        ]
+    },
+    {
+        "id": "275",
+        "labels": [
+            "European Supervisory Authorities (ESAs)"
+        ]
+    },
+    {
+        "id": "276",
+        "labels": [
+            "Regulation"
+        ]
+    },
+    {
+        "id": "277",
+        "labels": [
+            "Financial Entity"
+        ]
+    },
+    {
+        "id": "278",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ]
+    },
+    {
+        "id": "279",
+        "labels": [
+            "Cooperation Group"
+        ]
+    },
+    {
+        "id": "280",
+        "labels": [
+            "Trade Repository"
+        ]
+    },
+    {
+        "id": "281",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "282",
+        "labels": [
+            "Central Securities Depository (CSD)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "283",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "284",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "285",
+        "labels": [
+            "Trade Repository"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "286",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "287",
+        "labels": [
+            "Central Securities Depository (CSD)"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "288",
+        "labels": [
+            "ICT Third-Party Service Provider"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "289",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {}
+    },
+    {
+        "id": "290",
+        "labels": [
+            "Trade Repository"
+        ],
+        "properties": {}
+    }
+]
+    }
+]

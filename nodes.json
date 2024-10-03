@@ -1,0 +1,43 @@
+[
+    {
+        "id": "17556231",
+        "labels": [
+            "Regulation"
+        ],
+        "properties": {
+            "Number": "2022/2554",
+            "Title": "Digital Operational Resilience for the Financial Sector",
+            "Jurisdiction": "EU"
+        }
+    },
+    {
+        "id": "28344569",
+        "labels": [
+            "Financial Sector"
+        ],
+        "properties": {
+            "Type": "ICT Risk"
+        }
+    },
+    {
+        "id": "19935909",
+        "labels": [
+            "Competent Authority"
+        ],
+        "properties": {
+            "Name": "European Systemic Risk Board (ESRB)"
+        }
+    },
+    {
+        "id": "25823448",
+        "labels": [
+            "Financial Transmission Channels"
+        ]
+    },
+    {
+        "id": "26775636",
+        "labels": [
+            "Union's Financial System"
+        ]
+    }
+]

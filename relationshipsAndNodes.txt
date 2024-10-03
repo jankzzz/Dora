@@ -1,0 +1,3721 @@
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Regulation"
+        ],
+        "properties": {
+          "Number": "2022/2554",
+          "Title": "Digital Operational Resilience for the Financial Sector",
+          "Jurisdiction": "EU"
+        }
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Financial Sector"
+        ],
+        "properties": {
+          "Type": "ICT Risk"
+        }
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Competent Authority"
+        ],
+        "properties": {
+          "Name": "European Systemic Risk Board (ESRB)"
+        }
+      },
+      {
+        "id": "4",
+        "labels": [
+          "Financial Transmission Channels"
+        ]
+      },
+      {
+        "id": "5",
+        "labels": [
+          "Union's Financial System"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "id": "r1",
+        "type": "REGULATES",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {
+          "since": "2022"
+        }
+      },
+      {
+        "id": "r2",
+        "type": "VULNERABLE_TO",
+        "startNode": "5",
+        "endNode": "4",
+        "properties": {}
+      },
+      {
+        "id": "r3",
+        "type": "VULNERABILITY_SPREADS_THROUGH",
+        "startNode": "4",
+        "endNode": "5",
+        "properties": {}
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": ["Regulation"]
+      },
+      {
+        "id": "2",
+        "labels": ["Financial System", "Financial Sector"]
+      },
+      {
+        "id": "3",
+        "labels": ["Union Financial System", "Competent Authorities"]
+      },
+      {
+        "id": "4",
+        "labels": ["ICT Risk", "Digital Operational Resilience"]
+      }
+    ],
+    "relationships": [
+      {
+        "id": "r1",
+        "type": "REGULATED_BY",
+        "start_node": "2",
+        "end_node": "1"
+      },
+      {
+        "id": "r2",
+        "type": "VULNERABLE_TO",
+        "start_node": "3",
+        "end_node": "4"
+      },
+      {
+        "id": "r3",
+        "type": "MONITORED_BY",
+        "start_node": "3",
+        "end_node": "1"
+      },
+      {
+        "id": "r4",
+        "type": "EXPOSES",
+        "start_node": "4",
+        "end_node": "3"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": ["Regulation"]
+      },
+      {
+        "id": "2",
+        "labels": ["Financial System", "Financial Sector"]
+      },
+      {
+        "id": "3",
+        "labels": ["Competent Authority"]
+      },
+      {
+        "id": "4",
+        "labels": ["ICT Risk", "Digital Operational Resilience"]
+      }
+    ],
+    "relationships": [
+      {
+        "id": "r1",
+        "type": "VULNERABLE_TO",
+        "startNode": "3",
+        "endNode": "2"
+      },
+      {
+        "id": "r2",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "3"
+      },
+      {
+        "id": "r3",
+        "type": "REQUIRES",
+        "startNode": "1",
+        "endNode": "4"
+      },
+      {
+        "id": "r4",
+        "type": "FILLS_GAPS",
+        "startNode": "1",
+        "endNode": "previous legal acts"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": ["Regulation", "EU Regulation"]
+      },
+      {
+        "id": "2",
+        "labels": ["Financial System", "Union's Financial System"]
+      },
+      {
+        "id": "3",
+        "labels": ["Competent Authority", "National Competent Authorities"]
+      },
+      {
+        "id": "4",
+        "labels": ["ICT Risk", "Digital Operational Resilience"]
+      }
+    ],
+    "relationships": [
+      {
+        "type": "Covers",
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "type": "Affects",
+        "source": "2",
+        "target": "4"
+      },
+      {
+        "type": "Requires",
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "type": "Increases",
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "type": "Harmonizes",
+        "source": "1",
+        "target": "4"
+      },
+      {
+        "type": "Is Lex Specialis To",
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "type": "Maintains Relationship With",
+        "source": "3",
+        "target": "4"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": ["Regulation", "EU Regulation"]
+      },
+      {
+        "id": "2",
+        "labels": ["Financial System", "Union's Financial System"]
+      },
+      {
+        "id": "3",
+        "labels": ["Competent Authority", "National Supervisory Arrangement"]
+      },
+      {
+        "id": "4",
+        "labels": ["ICT Third-Party Service Provider", "Cloud Computing Service Provider"]
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "APPLIES_TO"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "ESTABLISHES"
+      },
+      {
+        "source": "1",
+        "target": "4",
+        "type": "COVERS"
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "type": "SUPERVISED_BY"
+      },
+      {
+        "source": "4",
+        "target": "3",
+        "type": "REGULATED_BY"
+      },
+      {
+        "source": "1",
+        "target": "4",
+        "type": "APPLIES_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": ["Regulation", "EU Regulation"]
+      },
+      {
+        "id": "2",
+        "labels": ["Financial System", "Union's Financial System"]
+      },
+      {
+        "id": "3",
+        "labels": ["Competent Authority", "National Supervisory Arrangement"]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "AppliesTo"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "Empowers"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "ReportsTo"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "7",
+        "labels": [
+          "Regulation"
+        ],
+        "properties": {
+          "Number": "(EU) No 909/2014"
+        }
+      },
+      {
+        "id": "1",
+        "labels": [
+          "Financial Sector"
+        ]
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Competent Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "7",
+        "target": "1",
+        "type": "REGULATES"
+      },
+      {
+        "source": "7",
+        "target": "3",
+        "type": "MONITORED_BY"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "REPORTS_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Sector"
+        ]
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Competent Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "8",
+        "target": "1",
+        "type": "REGULATES"
+      },
+      {
+        "source": "8",
+        "target": "3",
+        "type": "MONITORED_BY"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "REPORTS_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Competent Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "REPORTS_TO"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "ASSSESSED_BY"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "ICT Service Provider"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Financial Entity"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "EXEMPTS_FROM"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORED_BY"
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "type": "SUBJECT_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Microenterprise"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORED_BY"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "SUBJECT_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "EXEMPTS_FROM"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Competent Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "REPORTS_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "SUPERVISION_OVER"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "SUBJECT_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Competent Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "REPORTS_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "SUPERVISION_OVER"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "SUBJECT_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "MONITORED_BY"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "NEEDS_GUIDANCE_FROM"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Competent Authority"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Financial Entity"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "DELEGATES_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "SUBJECT_TO_SUPERVISION"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORS_FOR_ICT_RISK"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "ICT Third-party Service Provider"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORS_RISK_OF"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "USES_SERVICES_FROM"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "PROVIDES_SERVICES_TO"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "ICT Third-party Service Provider"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORS_RISK_OF"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "USES_SERVICES_FROM"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "PROVIDES_SERVICES_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "EXPOSED_TO_RISK_BY"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Financial Entity"
+        ]
+      },
+      {
+        "id": "2",
+        "labels": [
+          "ICT Third-party Service Provider"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "MONITORS_RISK_OF"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "type": "USES_SERVICES_FROM"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "PROVIDES_SERVICES_TO"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "type": "EXPOSED_TO_RISK_BY"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "3",
+        "labels": [
+          "Competent Authority"
+        ],
+        "properties": {
+          "Name": "European Systemic Risk Board (ESRB)"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "3",
+        "type": "HAS_COMPETENT_AUTHORITY"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "4",
+        "labels": [
+          "Resolution Authority"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "4",
+        "type": "IS_SUBJECT_TO_RESOLUTION_AUTHORITY"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "5",
+        "labels": [
+          "Financial Entity's Resolution Plan"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "5",
+        "type": "HAS_RESOLUTION_PLAN"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "6",
+        "labels": [
+          "Contractual Arrangement"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "HAS_CONTRACTUAL_ARRANGEMENT_WITH"
+      },
+      {
+        "source": "2",
+        "target": "6",
+        "type": "IS_PART_OF"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "7",
+        "labels": [
+          "Cloud Computing Services"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "2",
+        "target": "7",
+        "type": "PROVIDES"
+      },
+      {
+        "source": "1",
+        "target": "7",
+        "type": "USES"
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": "8",
+        "labels": [
+          "Standard Contractual Clauses"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "2",
+        "target": "8",
+        "type": "APPLIES_TO"
+      },
+      {
+        "source": "7",
+        "target": "8",
+        "type": "IS_PART_OF"
+      }
+    ]
+  }
+]
+
+{
+  "relationships": [
+    {
+      "id": "r1",
+      "type": "APPLIED_TO",
+      "startNode": "Union Oversight Framework",
+      "endNode": "critical ICT third-party service providers",
+      "properties": {}
+    },
+    {
+      "id": "r2",
+      "type": "EXEMPTED_FROM",
+      "startNode": "financial entities providing ICT services to other financial entities",
+      "endNode": "Union Oversight Framework",
+      "properties": {}
+    },
+    {
+      "id": "r3",
+      "type": "ALSO_EXEMPTED_FROM",
+      "startNode": "ICT third-party service providers delivering services predominantly to the entities of their own group",
+      "endNode": "Union Oversight Framework",
+      "properties": {}
+    }
+  ]
+}
+```
+
+Please let me know if this meets your requirements.
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "ICT third-party service providers"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "financial entities providing ICT services to other financial entities"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Union Oversight Framework"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Lead Overseer"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "appraisal ICT third-party risk",
+                "start_node_id": "3",
+                "end_node_id": "1"
+            },
+            {
+                "type": "conduct monitoring missions and inspections",
+                "start_node_id": "4",
+                "end_node_id": "1"
+            },
+            {
+                "type": "follow Lead Overseer's recommendations",
+                "start_node_id": "1",
+                "end_node_id": "4"
+            },
+            {
+                "type": "provide services to financial entities",
+                "start_node_id": "2",
+                "end_node_id": "1"
+            },
+            {
+                "type": "maintain adequate business presence in the Union",
+                "start_node_id": "1",
+                "end_node_id": "2"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "ICT third-party service providers"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "financial entities providing ICT services to other financial entities"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Union Oversight Framework"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Lead Overseer"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "ESTABLISHES_SUBSIDIARY",
+                "startNode": "1",
+                "endNode": "2"
+            },
+            {
+                "type": "UNDERTAKES_ARRANGEMENTS",
+                "startNode": "1",
+                "endNode": "3"
+            },
+            {
+                "type": "CONDUCTS_OVERSIGHT_ACTIVITIES",
+                "startNode": "4",
+                "endNode": "2"
+            },
+            {
+                "type": "EXERCISES_OVERSIGHT_POWERS",
+                "startNode": "4",
+                "endNode": "1"
+            },
+            {
+                "type": "CONCLUDES_ADMINISTRATIVE_COOPERATION_ARRANGEMENTS",
+                "startNode": "3",
+                "endNode": "ESAs"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "ICT third-party service providers"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "financial entities providing ICT services to other financial entities"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Union Oversight Framework"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Lead Overseer"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "DELEGATED_TO",
+                "source_node_id": "1",
+                "target_node_id": "2"
+            },
+            {
+                "type": "RESPONSIBLE_FOR",
+                "source_node_id": "4",
+                "target_node_id": "3"
+            },
+            {
+                "type": "HAS_POWER_TO",
+                "source_node_id": "4",
+                "target_node_id": "1"
+            },
+            {
+                "type": "SUBJECT_TO_OVERSIGHT",
+                "source_node_id": "1",
+                "target_node_id": "3"
+            },
+            {
+                "type": "REQUIRES_VERIFICATION",
+                "source_node_id": "4",
+                "target_node_id": "2"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "ICT third-party service providers"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "financial entities providing ICT services to other financial entities"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Union Oversight Framework"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Lead Overseer"
+                ]
+            }
+        ]
+    }
+]
+
+[
+    {
+        "id": "1",
+        "type": "supervised under",
+        "target_id": "3"
+    },
+    {
+        "id": "1",
+        "type": "overseen by",
+        "target_id": "4"
+    },
+    {
+        "id": "2",
+        "type": "require to manage risks",
+        "target_id": "1"
+    },
+    {
+        "id": "3",
+        "type": "established by Directive (EU) 2022/2555",
+        "target_id": "4"
+    },
+    {
+        "id": "4",
+        "type": "draw on national supervisory capabilities and knowledge",
+        "target_id": "1"
+    }
+]
+
+Relationships:
+
+- ICT third-party service providers are supervised under the Union Oversight Framework.
+- The Lead Overseer oversees the ICT third-party service providers.
+- Financial entities providing ICT services to other financial entities require to manage risks associated with ICT third-party service providers.
+- The Union Oversight Framework is established by Directive (EU) 2022/2555 and overseen by the Lead Overseer.
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "type": "ICT third-party service provider"
+            },
+            {
+                "id": "2",
+                "type": "Financial entity"
+            },
+            {
+                "id": "3",
+                "type": "Regulatory technical standard"
+            },
+            {
+                "id": "4",
+                "type": "Implementing technical standard"
+            }
+        ],
+        "relations": [
+            {
+                "id": "r1",
+                "type": "supervises",
+                "startNode": "2",
+                "endNode": "1"
+            },
+            {
+                "id": "r2",
+                "type": "develops",
+                "startNode": "3",
+                "endNode": "1"
+            },
+            {
+                "id": "r3",
+                "type": "establishes",
+                "startNode": "4",
+                "endNode": "2"
+            }
+        ]
+    }
+]
+Based on the provided text, I will attempt to identify the key relationships between nodes that were discussed. Please note that the nodes mentioned in the text might not be explicitly defined as **Allowed Node Types**, but I will try to infer them from the context.
+
+The text discusses the relationship between:
+
+1. **Regulations (EU) No 1093/2010, (EU) No 1094/2010, and (EU) No 1095/2010**:
+	* These regulations are related in that they all seem to be connected to the European Parliament and the Council.
+2. **Directive (EU) 2022/2556 of the European Parliament and of the Council**:
+	* This directive is connected to the Regulation (EU) 2022/**[Number]**, which is implied by the context but not explicitly stated.
+3. **Regulation (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, and (EU) No 909/2014**:
+	* These regulations are related in that they all seem to be connected through the European Parliament and the Council.
+4. **Regulation (EU) 2016/1011 of the European Parliament and of the Council**:
+	* This regulation is connected to Regulation (EU) No 600/**[Number]**, which is implied by the context but not explicitly stated.
+
+The relationships between these nodes are:
+
+* **Directive (EU) 2022/2556** is related to **Regulation (EU) 2022/[Number]**.
+* **Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, and (EU) No 909/2014** are connected through their shared relationship with the European Parliament and the Council.
+* **Regulation (EU) 2016/1011** is related to **Regulation (EU) No 600/[Number]**.
+
+Please note that these relationships might not be explicitly stated in the text but can be inferred from the context. If you need further clarification or would like me to rephrase anything, please let me know!
+There is no problem statement or rules provided. The text appears to be a snippet from a regulation document (EU) 2022/2556. If you provide the actual problem statement and rules, I'll do my best to assist you in extracting relationships between nodes while adhering to the requirements for clarity, consistency, and scalability.
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {
+                    "Type": "Credit Institution"
+                }
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Regulation"
+                ],
+                "properties": {
+                    "Number": "2022/2556",
+                    "Title": "Digital Operational Resilience for the Financial Sector"
+                }
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "ICT Third-Party Service Provider"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Financial Transmission Channels"
+                ]
+            },
+            {
+                "id": "5",
+                "labels": [
+                    "Union's Financial System"
+                ],
+                "properties": {
+                    "Scope": "EU-wide"
+                }
+            }
+        ],
+        "relationships": [
+            {
+                "from": "1",
+                "to": "2",
+                "label": "regulated_by"
+            },
+            {
+                "from": "3",
+                "to": "1",
+                "label": "services_provided_to"
+            },
+            {
+                "from": "1",
+                "to": "4",
+                "label": "uses"
+            },
+            {
+                "from": "2",
+                "to": "5",
+                "label": "applies_to"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "ICT asset"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Financial entity"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Network and information systems"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "USES"
+            },
+            {
+                "source": "1",
+                "target": "3",
+                "type": "PART_OF"
+            },
+            {
+                "source": "3",
+                "target": "2",
+                "type": "SUPPORTS_CRITICAL_FUNCTIONS"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "4",
+                "labels": [
+                    "Operational or security payment-related incident"
+                ]
+            },
+            {
+                "id": "5",
+                "labels": [
+                    "Financial entity"
+                ]
+            },
+            {
+                "id": "6",
+                "labels": [
+                    "Payment-related services"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "source": "4",
+                "target": "5",
+                "type": "HAS_ADEQUATE_IMPACT_ON"
+            },
+            {
+                "source": "5",
+                "target": "6",
+                "type": "PROVIDES"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "7",
+                "labels": [
+                    "Cyber threat"
+                ]
+            },
+            {
+                "id": "8",
+                "labels": [
+                    "Financial entity"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "source": "7",
+                "target": "8",
+                "type": "MAY_RESULT_IN"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "9",
+                "labels": [
+                    "Cyber-threat actor"
+                ]
+            },
+            {
+                "id": "10",
+                "labels": [
+                    "Financial entity"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "source": "9",
+                "target": "10",
+                "type": "MAY_ATTACK"
+            }
+        ]
+    }
+]
+Based on the provided text, I will attempt to extract the relationships between nodes, focusing on clarity, consistency, and scalability in labeling these relationships using only the nodes listed under "Allowed Node Types."
+
+Please note that the original text defines a wide range of financial entities and concepts. Given the constraints, I'll focus on establishing connections between the entities mentioned directly or indirectly as part of the definitions within the provided context.
+
+1. **Critical ICT third-party service provider** -> A subset of **ICT third-party service provider established in a third country**, indicating that a critical ICT third-party service provider is a specific case of an ICT third-party service provider established in a third country, focusing on its critical nature.
+2. **Financial entity** -> May use services from **Critical ICT third-party service provider** or **Subsidiary**, highlighting the operational relationship between these entities.
+3. **Group** and **Parent undertaking** are related to each other as part of an organizational structure, with a parent undertaking being the one that controls another undertaking, potentially making them part of a group.
+4. **ICT subcontractor established in a third country** -> Can be contracted by either **ICT third-party service provider** or **ICT third-party service provider established in a third country**, showing a contractual relationship.
+5. **Financial entity** may have an exposure to **ICT concentration risk** if it relies heavily on a few critical ICT third-party service providers, indicating a dependency relationship.
+
+Given the specificity of these relationships and focusing strictly on the provided definitions:
+
+- The financial entities directly mentioned (e.g., credit institution, investment firm) are related through their operational dependencies or legal structures.
+- Entities like **Critical ICT third-party service provider** or **ICT subcontractor established in a third country** have contractual relationships with other entities, especially within the context of providing critical services.
+- Organizational structures (like **Group**, **Parent undertaking**) suggest hierarchical relationships among financial entities.
+
+These extracted relationships aim to reflect clarity and consistency in labeling them using only nodes allowed by the original definitions.
+It seems like you're asking me to extract information from a text that describes various terms related to financial regulations. I'll do my best to identify the relationships between these terms, as described in the provided snippet.
+
+
+## Step 1: Identify the key concepts
+The given snippet lists various definitions related to financial regulations, including 'Investor', 'Securities firm', 'Financial institution', etc.
+
+## Step 2: Determine the allowed node types
+Allowed Node Types are specified but not explicitly listed. However, based on the context, they seem to be entities involved in financial transactions.
+
+
+## Step 3: Analyze relationships between nodes
+The snippet describes various terms related to financial regulations, such as 'Trading venue', 'Manager of alternative investment funds', etc.
+
+## Step 4: Extract relationships
+Based on the descriptions provided, it appears that these terms are related to specific roles or entities within the context of financial regulations. However, without explicit relationships between nodes, we can't determine a specific answer.
+
+
+The final answer is: $\boxed{0}$
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Public Authority"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Competent Authority"
+                ],
+                "properties": {}
+            }
+        ],
+        "relationships": [
+            {
+                "id": "r1",
+                "type": "REGULATES",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {
+                    "since": "Article 4"
+                }
+            },
+            {
+                "id": "r2",
+                "type": "MONITORED_BY",
+                "startNode": "2",
+                "endNode": "3",
+                "properties": {
+                    "based_on": "Article 6(5) and Article 16(2)"
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "4",
+                "labels": [
+                    "Management Body"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "5",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {}
+            }
+        ],
+        "relationships": [
+            {
+                "id": "r3",
+                "type": "RESPONSIBLE_FOR",
+                "startNode": "4",
+                "endNode": "5",
+                "properties": {}
+            },
+            {
+                "id": "r4",
+                "type": "HAS_RESPONSIBILITY",
+                "startNode": "5",
+                "endNode": "4",
+                "properties": {
+                    "for_ict_risk_management": "Article 6(1)"
+                }
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "6",
+                "labels": [
+                    "ICT Risk Management Framework"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "7",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {}
+            }
+        ],
+        "relationships": [
+            {
+                "id": "r5",
+                "type": "IS_IMPLEMENTED_BY",
+                "startNode": "6",
+                "endNode": "7",
+                "properties": {
+                    "to_achieve_high_level_of_digital_operational_resilience": "Article 6(4)"
+                }
+            },
+            {
+                "id": "r6",
+                "type": "IS_RESPONSIBLE_FOR_DEFINING_APPROVING_OVERSEEING_AND_ENSURING_THE_IMPLEMENTATION_OF",
+                "startNode": "7",
+                "endNode": "6",
+                "properties": {}
+            }
+        ]
+    }
+]
+After carefully analyzing the provided text and adhering to the rules, I extracted the following relationships between nodes:
+
+* The management body (node "4") is responsible for monitoring ICT third-party arrangements with the financial entity (node "1").
+* The financial entity (node "1") establishes a role specifically for monitoring the arrangements concluded with ICT third-party service providers on the use of ICT services.
+* The management body (node "4") must actively maintain up-to-date knowledge and skills necessary to understand and assess ICT risk and its impact on the entity's operations.
+
+Here are the extracted relationships in a machine-readable format, adhering to the rules:
+
+```
+[
+  {
+    "id": "r1",
+    "type": "MONITORED_BY",
+    "startNode": "4",
+    "endNode": "1"
+  },
+  {
+    "id": "r2",
+    "type": "MANAGES",
+    "startNode": "1",
+    "endNode": "4"
+  }
+]
+```
+
+These relationships are extracted based on the allowed node types and ensure clarity, consistency, and scalability in labeling relationships.
+[
+  {
+    "id": "r1",
+    "type": "ESTABLISHES",
+    "startNode": "Regulation",
+    "endNode": "Follow-up process"
+  },
+  {
+    "id": "r2",
+    "type": "INCLUDES",
+    "startNode": "Digital Operational Resilience Strategy",
+    "endNode": "Implementation plan"
+  },
+  {
+    "id": "r3",
+    "type": "ADDRESS",
+    "startNode": "ICT risk management framework",
+    "endNode": "Business strategy"
+  },
+  {
+    "id": "r4",
+    "type": "MANAGES",
+    "startNode": "Regulation",
+    "endNode": "Financial entity"
+  },
+  {
+    "id": "r5",
+    "type": "REQUIRES",
+    "startNode": "Financial entity",
+    "endNode": "ICT systems, protocols, and tools"
+  },
+  {
+    "id": "r6",
+    "type": "MAINTAINS",
+    "startNode": "ICT systems, protocols, and tools",
+    "endNode": "Updated status"
+  },
+  {
+    "id": "r7",
+    "type": "OUTSOURCES",
+    "startNode": "Financial entity",
+    "endNode": "Intra-group or external undertakings"
+  }
+]
+[
+  {
+    "id": "r1",
+    "type": "DOCUMENTS",
+    "startNode": "Financial entity",
+    "endNode": "ICT assets"
+  },
+  {
+    "id": "r2",
+    "type": "CLASSIFIES",
+    "startNode": "Financial entity",
+    "endNode": "ICT-supported business functions"
+  },
+  {
+    "id": "r3",
+    "type": "REVIEWED",
+    "startNode": "Financial entity",
+    "endNode": "Classification and documentation"
+  },
+  {
+    "id": "r4",
+    "type": "IDENTIFIES",
+    "startNode": "Financial entity",
+    "endNode": "Sources of ICT risk"
+  },
+  {
+    "id": "r5",
+    "type": "ASSESSED",
+    "startNode": "Financial entity",
+    "endNode": "Cyber threats and ICT vulnerabilities"
+  },
+  {
+    "id": "r6",
+    "type": "REVIEWED",
+    "startNode": "Financial entity",
+    "endNode": "Risk scenarios"
+  },
+  {
+    "id": "r7",
+    "type": "ASSESSED",
+    "startNode": "Financial entity",
+    "endNode": "Major changes in ICT infrastructure or processes"
+  },
+  {
+    "id": "r8",
+    "type": "MAPPED",
+    "startNode": "Financial entity",
+    "endNode": "Information and ICT assets"
+  },
+  {
+    "id": "r9",
+    "type": "IDENTIFIES",
+    "startNode": "Financial entity",
+    "endNode": "ICT third-party service providers"
+  },
+  {
+    "id": "r10",
+    "type": "MAINTAINED",
+    "startNode": "Financial entity",
+    "endNode": "Inventories of ICT assets and risks"
+  },
+  {
+    "id": "r11",
+    "type": "ASSESSED",
+    "startNode": "Financial entity",
+    "endNode": "Legacy ICT systems"
+  },
+  {
+    "id": "r12",
+    "type": "MONITORED",
+    "startNode": "Financial entity",
+    "endNode": "ICT security and functioning"
+  },
+  {
+    "id": "r13",
+    "type": "DESIGNED",
+    "startNode": "Financial entity",
+    "endNode": "ICT security policies and procedures"
+  },
+  {
+    "id": "r14",
+    "type": "IMPLEMENTED",
+    "startNode": "Financial entity",
+    "endNode": "ICT security solutions and processes"
+  }
+]
+Based on the provided text and the rules for Dora chunk extraction, I will extract the relevant information to create a graph with relationships between nodes.
+
+Here is the extracted information:
+
+**Nodes:**
+
+1. "Financial Transmission Channels"
+2. "Union's Financial System"
+3. "Data Compromise"
+4. "Data Management"
+5. "ICT Risk Management Framework Requirements"
+6. "Information Security Policy"
+7. "Network and Infrastructure Management"
+8. "Access Control Policies"
+9. "Authentication Mechanisms"
+10. "Patch and Update Management"
+11. "Detection"
+
+**Relationships:**
+
+1. **REGULATES**: "Financial Transmission Channels" regulates "Union's Financial System"
+2. **MONITORED_BY**: "Data Compromise" is monitored by "ICT Risk Management Framework Requirements"
+3. **VULNERABLE_TO**: "Data Management" is vulnerable to "Data Compromise"
+4. **EXPOSES**: "Patch and Update Management" exposes "Network and Infrastructure Management"
+5. **REGULATES**: "Information Security Policy" regulates "Access Control Policies"
+6. **MONITORED_BY**: "Authentication Mechanisms" is monitored by "Information Security Policy"
+7. **VULNERABLE_TO**: "Patch and Update Management" is vulnerable to "Data Compromise"
+8. **EXPOSES**: "Network and Infrastructure Management" exposes "Union's Financial System"
+9. **REGULATES**: "Detection" regulates "ICT Risk Management Framework Requirements"
+10. **MONITORED_BY**: "Prompt Detection Mechanisms" is monitored by "Detection"
+
+Note that some relationships are implied, but not explicitly stated in the text (e.g., "Data Compromise" being a consequence of poor data management). I've kept these implied relationships to maintain consistency with the provided information.
+
+The extracted graph will have 11 nodes and 10 relationships, adhering to the rules for clarity, consistency, and scalability.
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Transmission Channels"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "ICT Business Continuity Policy"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "ICT Response and Recovery Plans"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Business Impact Analysis (BIA)"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "HAS",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES",
+                "startNode": "2",
+                "endNode": "3",
+                "properties": {}
+            },
+            {
+                "type": "INVOLVES",
+                "startNode": "4",
+                "endNode": "1",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Transmission Channels"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "ICT Business Continuity Policy"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "ICT Response and Recovery Plans"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Business Impact Analysis (BIA)"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "HAS_REQUIREMENTS",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES_REGULAR_TESTING",
+                "startNode": "2",
+                "endNode": "3",
+                "properties": {}
+            },
+            {
+                "type": "INVOLVES_IN_RESTORED_DATA",
+                "startNode": "3",
+                "endNode": "4",
+                "properties": {}
+            },
+            {
+                "type": "MUST_MAINTAIN_REDUNDANCY",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Transmission Channels"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "ICT Business Continuity Policy"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "ICT Response and Recovery Plans"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Business Impact Analysis (BIA)"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "type": "HAS_REQUIREMENTS",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES_MONITORING",
+                "startNode": "4",
+                "endNode": "3",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES_ANALYSIS",
+                "startNode": "4",
+                "endNode": "1",
+                "properties": {}
+            },
+            {
+                "type": "HAS_POST_INCIDENT_REVIEW",
+                "startNode": "3",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES_COMMUNICATION",
+                "startNode": "2",
+                "endNode": "1",
+                "properties": {}
+            },
+            {
+                "type": "REQUIRES_TRAINING",
+                "startNode": "4",
+                "endNode": "3",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Transmission Channels"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "ICT Business Continuity Policy Components"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Communication Policies"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "INFORMS"
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "REQUIRED_BY"
+            },
+            {
+                "source": "3",
+                "target": "1",
+                "type": "APPLICABLE_TO"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Submission"
+                ]
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Commission"
+                ]
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Regulatory Technical Standards"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "Competent Authority"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "SUBMITTED_TO"
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "ENPOWERED_TO_ADOPT"
+            },
+            {
+                "source": "4",
+                "target": "1",
+                "type": "REQUESTING_REPORT"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "5",
+                "labels": [
+                    "Exemptions"
+                ]
+            },
+            {
+                "id": "6",
+                "labels": [
+                    "Entities"
+                ]
+            },
+            {
+                "id": "7",
+                "labels": [
+                    "ICT Risk Management Framework"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "5",
+                "target": "6",
+                "type": "APPLIED_TO"
+            },
+            {
+                "source": "6",
+                "target": "7",
+                "type": "REQUIRED_TO_ESTABLISH"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "8",
+                "labels": [
+                    "Obligations"
+                ]
+            },
+            {
+                "id": "9",
+                "labels": [
+                    "Exempt Entities"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "8",
+                "target": "9",
+                "type": "APPLICABLE_TO"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "10",
+                "labels": [
+                    "Documentation and Review"
+                ]
+            },
+            {
+                "id": "11",
+                "labels": [
+                    "ICT Risk Management Framework"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "10",
+                "target": "11",
+                "type": "REQUIRED_TO_DOCUMENT"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": "12",
+                "labels": [
+                    "Role of ESAs"
+                ]
+            },
+            {
+                "id": "13",
+                "labels": [
+                    "Joint Committee"
+                ]
+            },
+            {
+                "id": "14",
+                "labels": [
+                    "ENISA"
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "source": "12",
+                "target": "13",
+                "type": "TASKED_TO_DEVELOP"
+            },
+            {
+                "source": "12",
+                "target": "14",
+                "type": "CONSULTING_WITH"
+            }
+        ]
+    }
+]
+After analyzing the provided Dora_chunk and allowed node types, I will extract the relationships between nodes. Here are the extracted relations:
+
+```
+[
+    {
+        "id": "r1",
+        "type": "MONITORED_BY",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {
+            "since": "2022"
+        }
+    },
+    {
+        "id": "r2",
+        "type": "MONITORED_BY",
+        "startNode": "2",
+        "endNode": "3",
+        "properties": {
+            "since": "2023"
+        }
+    },
+    {
+        "id": "r3",
+        "type": "VULNERABLE_TO",
+        "startNode": "5",
+        "endNode": "4",
+        "properties": {}
+    },
+    {
+        "id": "r4",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "5",
+        "properties": {}
+    }
+]
+```
+
+Note that I've only used the allowed node types and maintained clarity, consistency, and scalability in labeling relationships. The extracted relations include:
+
+* `r1`: A financial entity is monitored by another (2022)
+* `r2`: A financial entity is monitored by another (2023)
+* `r3`: One entity is vulnerable to another
+* `r4`: One entity exposes itself to another
+
+These relations represent the connections between different entities and their relationships, as described in the provided Dora_chunk.
+[
+    {
+        "id": "r1",
+        "type": "REGULATES",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {
+            "since": "2023"
+        }
+    },
+    {
+        "id": "r2",
+        "type": "REPORTS",
+        "startNode": "2",
+        "endNode": "4",
+        "properties": {}
+    },
+    {
+        "id": "r3",
+        "type": "VOLUNTARILY_NOTIFIES",
+        "startNode": "2",
+        "endNode": "5",
+        "properties": {}
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Competent Authority"
+                ],
+                "properties": {
+                    "Name": "European Systemic Risk Board (ESRB)"
+                }
+            },
+            {
+                "id": "3",
+                "labels": [
+                    "Member State"
+                ]
+            },
+            {
+                "id": "4",
+                "labels": [
+                    "CSIRT"
+                ]
+            },
+            {
+                "id": "5",
+                "labels": [
+                    "Client"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "r1",
+                "type": "REPORTS_TO",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "id": "r2",
+                "type": "VOLUNTARILY_NOTIFIES",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "id": "r3",
+                "type": "MONITORED_BY",
+                "startNode": "1",
+                "endNode": "3",
+                "properties": {}
+            },
+            {
+                "id": "r4",
+                "type": "SHARES_DETAILS_WITH",
+                "startNode": "2",
+                "endNode": "4",
+                "properties": {}
+            },
+            {
+                "id": "r5",
+                "type": "INFORMS_CLIENTS_OF",
+                "startNode": "1",
+                "endNode": "5",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "ESMA"
+            },
+            {
+                "id": 2,
+                "type": "Competent Authority"
+            },
+            {
+                "id": 3,
+                "type": "Host Member State's Authorities"
+            },
+            {
+                "id": 4,
+                "type": "European Supervisory Authorities (ESAs)"
+            },
+            {
+                "id": 5,
+                "type": "Central Securities Depositories"
+            },
+            {
+                "id": 6,
+                "type": "ENISA"
+            }
+        ],
+        "relationships": [
+            {
+                "source": 1,
+                "target": 2,
+                "type": "requests notification"
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "type": "urgently inform"
+            },
+            {
+                "source": 4,
+                "target": 1,
+                "type": "develop standardized content and templates"
+            },
+            {
+                "source": 4,
+                "target": 6,
+                "type": "consultation"
+            },
+            {
+                "source": 5,
+                "target": 3,
+                "type": "notification"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "ESMA"
+            },
+            {
+                "id": 2,
+                "type": "Competent Authority"
+            },
+            {
+                "id": 3,
+                "type": "Host Member State's Authorities"
+            },
+            {
+                "id": 4,
+                "type": "European Supervisory Authorities (ESAs)"
+            },
+            {
+                "id": 5,
+                "type": "Central Securities Depositories"
+            },
+            {
+                "id": 6,
+                "type": "Financial Entities"
+            }
+        ],
+        "relationships": [
+            {
+                "from": 1,
+                "to": 4,
+                "label": "Prepared Joint Report"
+            },
+            {
+                "from": 4,
+                "to": 3,
+                "label": "Submitted to"
+            },
+            {
+                "from": 3,
+                "to": 2,
+                "label": "Reported to"
+            },
+            {
+                "from": 4,
+                "to": 5,
+                "label": "Issued Warnings and Statistics"
+            },
+            {
+                "from": 5,
+                "to": 6,
+                "label": "Provided Feedback or Guidance"
+            },
+            {
+                "from": 2,
+                "to": 6,
+                "label": "Provided Acknowledgment of Receipt"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "Credit Institutions"
+            },
+            {
+                "id": 2,
+                "type": "Payment Institutions"
+            },
+            {
+                "id": 3,
+                "type": "Account Information Service Providers"
+            },
+            {
+                "id": 4,
+                "type": "Electronic Money Institutions"
+            },
+            {
+                "id": 5,
+                "type": "Financial Entities"
+            }
+        ],
+        "relations": [
+            {
+                "source": 1,
+                "target": 5,
+                "relation": "covered by"
+            },
+            {
+                "source": 2,
+                "target": 5,
+                "relation": "covered by"
+            },
+            {
+                "source": 3,
+                "target": 5,
+                "relation": "covered by"
+            },
+            {
+                "source": 4,
+                "target": 5,
+                "relation": "covered by"
+            },
+            {
+                "source": 1,
+                "target": 2,
+                "relation": "similar to"
+            },
+            {
+                "source": 3,
+                "target": 2,
+                "relation": "related to"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "Financial Entities"
+            },
+            {
+                "id": 2,
+                "type": "Regulatory Requirements"
+            },
+            {
+                "id": 3,
+                "type": "ICT Systems"
+            },
+            {
+                "id": 4,
+                "type": "Microenterprises"
+            }
+        ],
+        "relations": [
+            {
+                "source": 1,
+                "target": 2,
+                "relation": "subject to"
+            },
+            {
+                "source": 1,
+                "target": 3,
+                "relation": "uses"
+            },
+            {
+                "source": 1,
+                "target": 4,
+                "relation": "differentiates from"
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "requires testing of"
+            },
+            {
+                "source": 4,
+                "target": 2,
+                "relation": "must comply with"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "Regulation"
+            },
+            {
+                "id": 2,
+                "type": "Financial Entities"
+            },
+            {
+                "id": 3,
+                "type": "ICT Systems"
+            },
+            {
+                "id": 4,
+                "type": "Microenterprises"
+            }
+        ],
+        "relationships": [
+            {
+                "source": 1,
+                "target": 2,
+                "relation": "applies to",
+                "properties": {}
+            },
+            {
+                "source": 1,
+                "target": 3,
+                "relation": "requires testing of",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 4,
+                "relation": "excludes",
+                "properties": {}
+            },
+            {
+                "source": 1,
+                "target": 3,
+                "relation": "covers",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "uses",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "Regulation"
+            },
+            {
+                "id": 2,
+                "type": "Financial Entities"
+            },
+            {
+                "id": 3,
+                "type": "Competent Authority"
+            },
+            {
+                "id": 4,
+                "type": "Microenterprises"
+            }
+        ],
+        "relationships": [
+            {
+                "source": 1,
+                "target": 2,
+                "relation": "applies to",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "must obtain approval from",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 1,
+                "relation": "must comply with",
+                "properties": {}
+            },
+            {
+                "source": 4,
+                "target": 3,
+                "relation": "must have approval from",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 1,
+                "relation": "has responsibility for",
+                "properties": {}
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": 1,
+                "type": "Regulation"
+            },
+            {
+                "id": 2,
+                "type": "Financial Entities"
+            },
+            {
+                "id": 3,
+                "type": "Competent Authority"
+            },
+            {
+                "id": 4,
+                "type": "Microenterprises"
+            }
+        ],
+        "relationships": [
+            {
+                "source": 2,
+                "target": 1,
+                "relation": "must comply with",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "must report to",
+                "properties": {"frequency": "annually"}
+            },
+            {
+                "source": 4,
+                "target": 1,
+                "relation": "regulates",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "must provide access to",
+                "properties": {"sections": "full register or specified"}
+            },
+            {
+                "source": 2,
+                "target": 1,
+                "relation": "must assess third-party service providers",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "must inform about planned arrangements",
+                "properties": {"timing": "timely manner"}
+            },
+            {
+                "source": 2,
+                "target": 1,
+                "relation": "must ensure due diligence",
+                "properties": {}
+            },
+            {
+                "source": 2,
+                "target": 3,
+                "relation": "may be inspected and audited by",
+                "properties": {"frequency": "risk-based approach"}
+            },
+            {
+                "source": 4,
+                "target": 1,
+                "relation": "must comply with information security standards",
+                "properties": {}
+            }
+        ]
+    }
+]
+Based on the provided JSON data and the rules specified, I will extract the relationships between nodes as follows:
+
+```json
+{
+    "relationships": [
+        {
+            "id": "r1",
+            "type": "REGULATES",
+            "startNode": "2",
+            "endNode": "3",
+            "properties": {
+                "since": "2023"
+            }
+        },
+        {
+            "id": "r2",
+            "type": "MONITORED_BY",
+            "startNode": "4",
+            "endNode": "5",
+            "properties": {}
+        },
+        {
+            "id": "r3",
+            "type": "VULNERABLE_TO",
+            "startNode": "5",
+            "endNode": "4",
+            "properties": {}
+        }
+    ]
+}
+```
+
+Here, I extracted only the relationships where both startNode and endNode are among the allowed node types (`1`, `2`, `3`, `4`, or `5`). The relationships that do not meet this criterion have been removed. I also kept the same IDs for each relationship to maintain consistency.
+
+Note: In the provided Dora_chunk, there was a mention of "ICT third -party service providers" and related concepts. However, these are not directly related to the allowed node types or the specified relationships. The focus remains on extracting relationships between nodes from the provided JSON data.
+[
+    {
+        "nodes": [
+            {
+                "id": "Regulation",
+                "labels": [
+                    "Regulation"
+                ],
+                "properties": {
+                    "Number": "2022/2554",
+                    "Title": "Digital Operational Resilience for the Financial Sector",
+                    "Jurisdiction": "EU"
+                }
+            },
+            {
+                "id": "Financial_Sector",
+                "labels": [
+                    "Financial Sector"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "ICT_Service_Provider",
+                "labels": [
+                    "ICT Service Provider"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "Financial_Entity",
+                "labels": [
+                    "Financial Entity"
+                ],
+                "properties": {}
+            }
+        ]
+    },
+    {
+        "relationships": [
+            {
+                "from": "Regulation",
+                "to": "Financial_Sector",
+                "type": "APPLIES_TO"
+            },
+            {
+                "from": "Financial_Entity",
+                "to": "ICT_Service_Provider",
+                "type": "CONTRACTS_WITH"
+            },
+            {
+                "from": "Financial_Entity",
+                "to": "Regulation",
+                "type": "IS_BOUND_BY"
+            },
+            {
+                "from": "ICT_Service_Provider",
+                "to": "Financial_Sector",
+                "type": "PROVIDES_SERVICES_TO"
+            },
+            {
+                "from": "Regulation",
+                "to": "European_Commission",
+                "type": "SUBMITTED_BY"
+            }
+        ]
+    }
+]
+Based on the provided Dora chunk, I've extracted the following relationships between nodes:
+
+* `r1`: "EXPOSES" relationship between node `2` (DORA specification) and node `4` (Financial entities relying on provider).
+* `r2`: "VULNERABLE_TO" relationship between node `5` (ICT third-party service provider) and node `3` (Impact on stability, continuity, or quality of financial services).
+* `r3`: "EXPOSES" relationship between node `4` (Financial entities relying on provider) and node `5` (ICT third-party service provider).
+
+Here are the extracted relationships in a machine-readable format:
+
+```
+[
+    {
+        "id": "r1",
+        "type": "EXPOSES",
+        "startNode": "2",
+        "endNode": "4"
+    },
+    {
+        "id": "r2",
+        "type": "VULNERABLE_TO",
+        "startNode": "5",
+        "endNode": "3"
+    },
+    {
+        "id": "r3",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "5"
+    }
+]
+```
+
+These relationships meet the requirements of clarity, consistency, and scalability in labeling relationships.
+[
+    {
+        "id": "r1",
+        "type": "REGULATES",
+        "startNode": "5",
+        "endNode": "2",
+        "properties": {
+            "since": "2024"
+        }
+    },
+    {
+        "id": "r2",
+        "type": "CONDUCTS",
+        "startNode": "1",
+        "endNode": "5",
+        "properties": {}
+    },
+    {
+        "id": "r3",
+        "type": "SUBMITS",
+        "startNode": "1",
+        "endNode": "6",
+        "properties": {}
+    },
+    {
+        "id": "r4",
+        "type": "APPOINTS",
+        "startNode": "5",
+        "endNode": "7",
+        "properties": {}
+    },
+    {
+        "id": "r5",
+        "type": "ISSUES",
+        "startNode": "3",
+        "endNode": "6",
+        "properties": {}
+    },
+    {
+        "id": "r6",
+        "type": "SUBMITS",
+        "startNode": "4",
+        "endNode": "8",
+        "properties": {}
+    }
+]
+
+## Allowed Node Types:
+
+*   1: Oversight Forum
+*   2: Critical ICT third-party service providers
+*   3: ESAs (European Supervisory Authorities)
+*   5: Lead Overseer
+*   6: Joint Committee
+*   7: Independent Experts
+*   8: European Parliament, Council, and Commission
+[
+    {
+        "id": "r1",
+        "type": "REGULATES",
+        "startNode": "3",
+        "endNode": "2",
+        "properties": {}
+    },
+    {
+        "id": "r2",
+        "type": "COORDINATE_WITH",
+        "startNode": "1",
+        "endNode": "3",
+        "properties": {}
+    },
+    {
+        "id": "r3",
+        "type": "DEVELOP_OVERSIGHT_PLAN",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {}
+    },
+    {
+        "id": "r4",
+        "type": "SHARE_DRAFT_PLAN",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {}
+    },
+    {
+        "id": "r5",
+        "type": "SUBMIT_STATEMENT",
+        "startNode": "2",
+        "endNode": "3",
+        "properties": {}
+    },
+    {
+        "id": "r6",
+        "type": "COORDINATE_MEASURES",
+        "startNode": "1",
+        "endNode": "3",
+        "properties": {}
+    }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Lead Overseer"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Oversight Forum"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Joint Oversight Network (JON)"
+        ],
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "relations": [
+      {
+        "source": "1",
+        "target": "2",
+        "type": "Consultation"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "Reporting"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "type": "Coordination"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Lead Overseer"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Oversight Forum"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Joint Oversight Network (JON)"
+        ],
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "relations": [
+      {
+        "source": "1",
+        "target": "2",
+        "label": "conducts oversight activities"
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "label": "facilitates inspection coordination"
+      },
+      {
+        "source": "3",
+        "target": "1",
+        "label": "provides inspection updates"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "label": "requests information from critical ICT third-party service providers"
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "label": "transmits consent to Lead Overseer's investigations and inspections"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Lead Overseer"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Oversight Forum"
+        ],
+        "properties": {}
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Joint Oversight Network (JON)"
+        ],
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "relations": [
+      {
+        "source": "1",
+        "target": "2",
+        "label": "notifies"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "label": "notifies"
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "label": "responds to"
+      },
+      {
+        "source": "3",
+        "target": "1",
+        "label": "provides information to"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "label": "requests information from"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "label": "consults with"
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "label": "informs of inspection"
+      },
+      {
+        "source": "1",
+        "target": "3",
+        "label": "notifies of investigation"
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Lead Overseer"
+        ],
+        "description": ""
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Oversight Forum"
+        ],
+        "description": ""
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Critical ICT Third-Party Service Provider"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "type": "ASSISTS",
+        "from": "1",
+        "to": "2",
+        "description": ""
+      },
+      {
+        "type": "OPPOSES",
+        "from": "3",
+        "to": "1",
+        "description": ""
+      },
+      {
+        "type": "INFORMS",
+        "from": "1",
+        "to": "3",
+        "description": ""
+      },
+      {
+        "type": "CONDUCTS",
+        "from": "1",
+        "to": "3",
+        "description": ""
+      },
+      {
+        "type": "RECOMMENDS",
+        "from": "1",
+        "to": "3",
+        "description": ""
+      },
+      {
+        "type": "COMMUNICATES",
+        "from": "1",
+        "to": "3",
+        "description": ""
+      }
+    ]
+  }
+]
+[
+  {
+    "nodes": [
+      {
+        "id": "1",
+        "labels": [
+          "Lead Overseer"
+        ],
+        "description": ""
+      },
+      {
+        "id": "2",
+        "labels": [
+          "Oversight Forum"
+        ],
+        "description": ""
+      },
+      {
+        "id": "3",
+        "labels": [
+          "Critical ICT Third-Party Service Provider"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "id": "r1",
+        "type": "Notify",
+        "source_id": "1",
+        "target_id": "3",
+        "description": "The Lead Overseer must notify the Critical ICT Third-Party Service Provider of their intent to follow recommendations or provide a reasoned explanation."
+      },
+      {
+        "id": "r2",
+        "type": "Forward Information",
+        "source_id": "1",
+        "target_id": "2",
+        "description": "The Lead Overseer must forward this information to the relevant financial entities' competent authorities."
+      },
+      {
+        "id": "r3",
+        "type": "Public Disclosure",
+        "source_id": "1",
+        "target_id": "3",
+        "description": "If a Critical ICT Third-Party Service Provider fails to notify the Lead Overseer or provides an insufficient explanation, the Lead Overseer may disclose this publicly."
+      },
+      {
+        "id": "r4",
+        "type": "Inform",
+        "source_id": "2",
+        "target_id": "3",
+        "description": "Competent authorities must inform financial entities of the risks identified in the recommendations."
+      },
+      {
+        "id": "r5",
+        "type": "Notify Decision",
+        "source_id": "2",
+        "target_id": "3",
+        "description": "If a competent authority believes that a financial entity is not adequately addressing the risks identified in the recommendations, it must notify the financial entity that a decision may be made within 60 days to address these risks."
+      },
+      {
+        "id": "r6",
+        "type": "Consultation",
+        "source_id": "2",
+        "target_id": "3",
+        "description": "Before making a decision, competent authorities may consult with other competent authorities responsible for supervising essential or important entities under Directive (EU) 2022/2555."
+      },
+      {
+        "id": "r7",
+        "type": "Suspension or Termination",
+        "source_id": "2",
+        "target_id": "3",
+        "description": "Competent authorities may require financial entities to temporarily suspend or terminate the use of services provided by Critical ICT Third-Party Service Providers until the identified risks are addressed."
+      },
+      {
+        "id": "r8",
+        "type": "Issue Non-Binding Opinions",
+        "source_id": "1",
+        "target_id": "3",
+        "description": "The Lead Overseer may issue non-binding, non-public opinions to promote consistent supervisory follow-up measures."
+      },
+      {
+        "id": "r9",
+        "type": "Notify Decisions",
+        "source_id": "2",
+        "target_id": "1",
+        "description": "Decisions made under paragraph 6 must be notified to members of the Oversight Forum and the Joint Oversight Network (JON)."
+      },
+      {
+        "id": "r10",
+        "type": "Regular Updates",
+        "source_id": "2",
+        "target_id": "1",
+        "description": "Competent authorities must regularly inform the Lead Overseer of their supervisory approaches and measures related to financial entities and the contractual arrangements with Critical ICT Third-Party Service Providers."
+      },
+      {
+        "id": "r11",
+        "type": "Provide Clarifications",
+        "source_id": "1",
+        "target_id": "2",
+        "description": "The Lead Overseer may provide additional clarifications on the recommendations to guide competent authorities on appropriate follow-up measures."
+      }
+    ]
+  }
+]
+Based on the provided data and the Dora chunk for relation extraction, I will extract the relationships between nodes while adhering to the rules of clarity, consistency, and scalability in labeling relationships, using only the nodes listed under "Allowed Node Types".
+
+From the Dora chunk, it appears that there are specific regulations (e.g., Articles 32(4), Article 40) and institutions (e.g., EBA, ESMA, EIOPA) mentioned. However, I will focus on extracting relationships between entities without explicitly identifying these regulatory texts or organizations.
+
+### Extracted Relations
+
+* **MONITORED_BY**:
+	+ Between nodes "2" and "3", with a start date of "2022".
+	+ Between nodes "5" and "4", with a start date of "2023".
+
+These relations indicate that some entities are being monitored by others.
+
+* **VULNERABLE_TO**:
+	+ Between node "5" and node "4".
+
+This relation signifies that one entity is vulnerable to another's actions or risks.
+
+* **EXPOSES**:
+	+ Between node "4" and node "5".
+
+This relationship indicates that one entity exposes or has a risk associated with another entity.
+
+The extracted relations focus on the relationships between entities, avoiding direct references to regulatory texts or institutions. This approach maintains clarity, consistency, and scalability in labeling relationships while adhering to the constraints provided.
+Based on the provided text, I have extracted the relationships between nodes as per your instructions. Here's the output:
+
+```
+[
+    {
+        "nodes": ["Regulation", "Competent Authority"],
+        "edges": [
+            {"id": 1, "type": "ASSIGNED_TO", "startNode": "Regulation", "endNode": "Competent Authority"},
+            {"id": 2, "type": "DESIGNATED_BY", "startNode": "Competent Authority", "endNode": "Regulation"}
+        ]
+    },
+    {
+        "nodes": ["Credit Institutions", "Directive (EU) 2013/36/EU"],
+        "edges": [
+            {"id": 3, "type": "SUBJECT_TO", "startNode": "Credit Institutions", "endNode": "Directive (EU) 2013/36/EU"}
+        ]
+    },
+    {
+        "nodes": ["Payment Institutions", "Directive (EU) 2015/2366"],
+        "edges": [
+            {"id": 4, "type": "SUBJECT_TO", "startNode": "Payment Institutions", "endNode": "Directive (EU) 2015/2366"}
+        ]
+    },
+    {
+        "nodes": ["Electronic Money Institutions", "Directive 2009/110/EC"],
+        "edges": [
+            {"id": 5, "type": "SUBJECT_TO", "startNode": "Electronic Money Institutions", "endNode": "Directive 2009/110/EC"}
+        ]
+    },
+    {
+        "nodes": ["Account Information Service Providers", "Article 33(1) of Directive (EU) 2015/2366"],
+        "edges": [
+            {"id": 6, "type": "SUBJECT_TO", "startNode": "Account Information Service Providers", "endNode": "Article 33(1) of Directive (EU) 2015/2366"}
+        ]
+    },
+    {
+        "nodes": ["Investment Firms", "Directive (EU) 2019/2034"],
+        "edges": [
+            {"id": 7, "type": "SUBJECT_TO", "startNode": "Investment Firms", "endNode": "Directive (EU) 2019/2034"}
+        ]
+    },
+    {
+        "nodes": ["Crypto-asset Service Providers", "Regulation on markets in crypto-assets"],
+        "edges": [
+            {"id": 8, "type": "SUBJECT_TO", "startNode": "Crypto-asset Service Providers", "endNode": "Regulation on markets in crypto-assets"}
+        ]
+    },
+    {
+        "nodes": ["Central Securities Depositories", "Regulation (EU) No 909/2014"],
+        "edges": [
+            {"id": 9, "type": "SUBJECT_TO", "startNode": "Central Securities Depositories", "endNode": "Regulation (EU) No 909/2014"}
+        ]
+    },
+    {
+        "nodes": ["Central Counterparties", "Regulation (EU) No 648/2012"],
+        "edges": [
+            {"id": 10, "type": "SUBJECT_TO", "startNode": "Central Counterparties", "endNode": "Regulation (EU) No 648/2012"}
+        ]
+    },
+    {
+        "nodes": ["Trading Venues", "Directive 2014/65/EU"],
+        "edges": [
+            {"id": 11, "type": "SUBJECT_TO", "startNode": "Trading Venues", "endNode": "Directive 2014/65/EU"}
+        ]
+    },
+    {
+        "nodes": ["Data Reporting Service Providers", "Regulation (EU) No 600/2014"],
+        "edges": [
+            {"id": 12, "type": "SUBJECT_TO", "startNode": "Data Reporting Service Providers", "endNode": "Regulation (EU) No 600/2014"}
+        ]
+    },
+    {
+        "nodes": ["Trade Repositories", "Regulation (EU) No 648/2012"],
+        "edges": [
+            {"id": 13, "type": "SUBJECT_TO", "startNode": "Trade Repositories", "endNode": "Regulation (EU) No 648/2012"}
+        ]
+    },
+    {
+        "nodes": ["Managers of Alternative Investment Funds", "Directive 2011/61/EU"],
+        "edges": [
+            {"id": 14, "type": "SUBJECT_TO", "startNode": "Managers of Alternative Investment Funds", "endNode": "Directive 2011/61/EU"}
+        ]
+    },
+    {
+        "nodes": ["Management Companies", "Directive 2009/65/EC"],
+        "edges": [
+            {"id": 15, "type": "SUBJECT_TO", "startNode": "Management Companies", "endNode": "Directive 2009/65/EC"}
+        ]
+    },
+    {
+        "nodes": ["Article 33(1) of Directive (EU) 2015/2366"],
+        "edges": [
+            {"id": 16, "type": "SUBJECT_TO", "startNode": "Article 33(1) of Directive (EU) 2015/2366"}
+        ]
+    },
+    {
+        "nodes": ["Regulation on markets in crypto-assets"],
+        "edges": [
+            {"id": 17, "type": "SUBJECT_TO", "startNode": "Regulation on markets in crypto-assets"}
+        ]
+    }
+]
+```
+
+Note that the output includes edges with multiple types (e.g., 'SUBJECT_TO' and 'SUBJECT_TO'), as per your original instruction to include all possible relationships between nodes.
+Based on the provided rules and data, I will extract the relationships between nodes using only nodes listed under **Allowed Node Types**, ensuring clarity, consistency, and scalability in labeling relationships.
+
+Here's the extracted relationship graph:
+
+```json
+[
+    {
+        "id": "r1",
+        "type": "VULNERABLE_TO",
+        "startNode": "5",
+        "endNode": "4"
+    },
+    {
+        "id": "r2",
+        "type": "MONITORED_BY",
+        "startNode": "2",
+        "endNode": "3"
+    },
+    {
+        "id": "r3",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "5"
+    }
+]
+```
+
+From the provided text, I have identified three relationships between nodes:
+
+1. **VULNERABLE_TO**: Node 5 is vulnerable to node 4.
+2. **MONITORED_BY**: Node 3 is monitored by node 2.
+3. **EXPOSES**: Node 4 exposes node 5.
+
+These relationships are extracted based on the allowed node types and the provided text, ensuring clarity, consistency, and scalability in labeling relationships.
+[
+    {
+        "id": "r1",
+        "type": "MONITORED_BY",
+        "startNode": "3",
+        "endNode": "2"
+    },
+    {
+        "id": "r2",
+        "type": "REGULATES",
+        "startNode": "1",
+        "endNode": "2",
+        "properties": {
+            "since": "2022"
+        }
+    },
+    {
+        "id": "r3",
+        "type": "APPLICABLE_TO",
+        "startNode": "4",
+        "endNode": "5"
+    },
+    {
+        "id": "r4",
+        "type": "ISSUED_BY",
+        "startNode": "6",
+        "endNode": "7"
+    }
+]
+
+Allowed Node Types:
+- Regulated entities
+- Competent authorities
+- Member States
+- Natural or legal persons 
+- Telecommunication operators
+[
+    {
+        "id": "r1",
+        "type": "HAS_OBLIGATION",
+        "startNode": "7",
+        "endNode": "6"
+    },
+    {
+        "id": "r2",
+        "type": "NOTIFIED_TO",
+        "startNode": "3",
+        "endNode": "6"
+    },
+    {
+        "id": "r3",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "5"
+    },
+    {
+        "id": "r4",
+        "type": "PUBLISHES",
+        "startNode": "2",
+        "endNode": "1"
+    },
+    {
+        "id": "r5",
+        "type": "SUBJECT_TO",
+        "startNode": "7",
+        "endNode": "3"
+    }
+]
+
+Allowed Node Types:
+[
+    {
+        "id": "1",
+        "labels": [
+            "Regulation"
+        ],
+        "type": "Regulation"
+    },
+    {
+        "id": "2",
+        "labels": [
+            "Competent Authority"
+        ],
+        "type": "Authority"
+    },
+    {
+        "id": "3",
+        "labels": [
+            "Member State"
+        ],
+        "type": "MemberState"
+    },
+    {
+        "id": "4",
+        "labels": [
+            "Natural or Legal Person"
+        ],
+        "type": "Person"
+    },
+    {
+        "id": "5",
+        "labels": [
+            "Authority"
+        ],
+        "type": "Authority"
+    },
+    {
+        "id": "6",
+        "labels": [
+            "European Commission"
+        ],
+        "type": "Commission"
+    },
+    {
+        "id": "7",
+        "labels": [
+            "Member State Obligation"
+        ],
+        "type": "Obligation"
+    }
+]
+Based on the provided Dora chunk, I will extract relations from it while adhering to the rules of clarity, consistency, and scalability in labeling relationships, using only nodes listed under Allowed Node Types.
+
+Here is the extracted relation:
+
+* "r1" with type "MONITORED_BY", which relates node 2 (Investigations) to node 3 (Supervisory duties).
+
+The rest of the relations are not directly related to the content of the Dora chunk and will be ignored.
+
+The resulting graph remains the same as in the initial response:
+
+```
+[
+    {
+        "id": "r1",
+        "type": "MONITORED_BY",
+        "startNode": "2",
+        "endNode": "3",
+        "properties": {
+            "since": "2023"
+        }
+    },
+    {
+        "id": "r2",
+        "type": "MONITORED_BY",
+        "startNode": "3",
+        "endNode": "4",
+        "properties": {}
+    },
+    {
+        "id": "r3",
+        "type": "VULNERABLE_TO",
+        "startNode": "5",
+        "endNode": "4",
+        "properties": {}
+    },
+    {
+        "id": "r4",
+        "type": "EXPOSES",
+        "startNode": "4",
+        "endNode": "5",
+        "properties": {}
+    }
+]
+```
+
+Note that the `MONITORED_BY` relation is only extracted once, relating node 2 to node 3.
+## Step 1: Identify Allowed Node Types
+The problem statement requires us to extract relationships between nodes from the given text and adhere to specific rules. However, it doesn't explicitly list "Allowed Node Types" as initially suggested. Given this scenario, we'll interpret the requirement to focus on identifying key concepts or terms in the provided text that could serve as nodes for our relation extraction task.
+
+## Step 2: Extract Key Concepts
+From the given text about regulatory amendments and reviews within the European Union's financial sector, we can extract key concepts related to regulations, oversight bodies, entities involved in payment processing, auditors, and digital operational resilience. These concepts will serve as our "nodes" for relation extraction.
+
+## Step 3: Identify Relationships Between Key Concepts
+- **Regulation (EU) 2022/2554** is mentioned in the context of amending several other regulations.
+- The oversight bodies, including the Joint Oversight Network (JON), play a critical role in ensuring consistent oversight and efficient information exchange.
+- Payment systems and processing activities are under review to assess whether their scope should be expanded within the Regulation.
+- Statutory auditors and audit firms are also under review for strengthening digital operational resilience requirements.
+
+## Step 4: Map Relationships into Node Relations Format
+Based on the identified relationships:
+- **Regulation (EU) 2022/2554** is related to several other regulations (like Regulations EC No 1060/2009, EU No 648/2012).
+- JON is connected with ensuring consistent oversight and efficient information exchange.
+- Payment systems processing activities are under review for inclusion within the Regulation's scope.
+- Statutory auditors and audit firms are being reviewed for their digital operational resilience requirements.
+
+The final answer is: $\boxed{0}$
+Based on the provided Dora chunk, I will extract the relationships between nodes strictly adhering to the rules:
+
+### Relationships Extracted:
+
+1. **Replace**
+	* From: Paragraph 6
+	* To: Deleted
+2. **Amend**
+	* From: Article 34 (Paragraph 1)
+	* To: New text
+3. **Amend**
+	* From: Article 56(3) (first subparagraph)
+	* To: New text
+4. **Replace**
+	* From: Paragraphs 1 and 2 of Article 79
+	* To: New text
+5. **Delete**
+	* From: Paragraph 1 of Article 80
+6. **Replace**
+	* From: Points (a) and (b) in Annex I, Section II
+	* To: New text
+7. **Delete**
+	* From: Point (c) in Annex I, Section II
+8. **Amend**
+	* From: Point (c) in Annex III, Section II
+	* To: New text
+9. **Replace**
+	* From: Point (f) in Annex III, Section II
+	* To: Deleted
+10. **Replace**
+	* From: Point (a) in Annex III, Section III
+	* To: New text
+[
+    {
+        "relationships": [
+            {
+                "id": "r1",
+                "type": "REGULATES",
+                "startNode": "Regulation (EU) 2022/2554",
+                "endNode": "Central Securities Depository (CSD)"
+            },
+            {
+                "id": "r2",
+                "type": "REQUIRES",
+                "startNode": "CSD",
+                "endNode": "ICT tools, processes, and policies"
+            },
+            {
+                "id": "r3",
+                "type": "MANAGES",
+                "startNode": "CSD",
+                "endNode": "other types of operational risk"
+            },
+            {
+                "id": "r4",
+                "type": "DELETE",
+                "startNode": "Paragraph 2 of Article 45",
+                "endNode": "previous requirements or instructions"
+            },
+            {
+                "id": "r5",
+                "type": "ESTABLISHES",
+                "startNode": "CSD",
+                "endNode": "business continuity policy and disaster recovery plan"
+            },
+            {
+                "id": "r6",
+                "type": "IMPLEMENTS",
+                "startNode": "CSD",
+                "endNode": "ICT business continuity policy and ICT response and recovery plans"
+            },
+            {
+                "id": "r7",
+                "type": "IDENTIFIES",
+                "startNode": "CSD",
+                "endNode": "key participants in the securities settlement systems"
+            },
+            {
+                "id": "r8",
+                "type": "MONITORS",
+                "startNode": "CSD",
+                "endNode": "risks posed by key participants"
+            },
+            {
+                "id": "r9",
+                "type": "DEVELOPS",
+                "startNode": "ESMA and ESCB",
+                "endNode": "draft regulatory technical standards"
+            }
+        ]
+    }
+]
+[
+    {
+        "nodes": [
+            {
+                "id": "1",
+                "labels": [
+                    "Regulation"
+                ],
+                "properties": {
+                    "Number": "2022/2554",
+                    "Title": "Digital Operational Resilience for the Financial Sector",
+                    "Jurisdiction": "EU",
+                    "Application Date": "January 17, 2025"
+                }
+            },
+            {
+                "id": "2",
+                "labels": [
+                    "Union's Financial System"
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "id": "r1",
+                "type": "APPLIES_TO",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            },
+            {
+                "id": "r2",
+                "type": "COME_INTO_EFFECT_ON",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {
+                    "date": "twentieth day after publication"
+                }
+            },
+            {
+                "id": "r3",
+                "type": "BINDING_FOR",
+                "startNode": "1",
+                "endNode": "2",
+                "properties": {}
+            }
+        ]
+    }
+]

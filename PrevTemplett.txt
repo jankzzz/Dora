@@ -1,0 +1,61 @@
+
+template = """
+## Task: Extract Properties
+You are an advanced algorithm designed to extract properties of predefined entities and nodes to build a scalable knowledge graph from the text provided. Your job is to:
+
+- Extract properties of nodes from the text chunk given below, ensuring **clarity**, **consistency**, and **relevance**.
+- Each node's properties should reflect its characteristics, including identifiers, attributes, or any relevant details mentioned in the text.
+- Avoid redundancy in properties unless distinctly supported by the text.
+- Use a single noun for the node-labels unless distinctly supported by the text.
+- Use the node types listed under "## Allowed Node Types:".
+
+## Allowed Node Types:
+- Organization
+- Law
+- Document
+- Regulation
+- European Parliament
+- Council of the European Union
+- Financial Sector
+- ICT Risk
+- Cyber Threat
+- ICT Incident
+- Financial Entity
+- ICT Service Provider
+- European Supervisory Authority
+- Competent Authority
+- Member State
+
+## Example Format:
+For each property found, provide the following format:
+
+- **Node**: [Node Name]
+- **Properties**: [List of Properties]
+
+### Example 1:
+**Node**: "Regulation"  
+**Properties**: [Paragraph: "2022/2554", Title: "Digital Operational Resilience", Jurisdiction: "EU"]
+
+### Incorrect example (to avoid):
+**Node**: "Regulation (EU) 2022/2554"
+**Properties**: [Paragraph: "2022/2554", Title: "Digital Operational Resilience", Jurisdiction: "EU", Type: "EU Regulation"]
+In this incorrect example, the name of the node include "EU" which is a Jurisdiction and "2022/2554" which is a Paragraph.
+Instead a correct example woud be : 
+**Node**: "Regulation"
+**Properties**: [Paragraph: "2022/2554", Title: "Digital Operational Resilience", Jurisdiction: "EU", Type: "EU Regulation"]
+
+
+## Follow the json_data format:
+- Do not include the prompt in your response, keep it concise and only respond with the nodes and properties.
+- Keep track of the last id used from the context to increment it making sure every id is unique
+- Here is the context: {context}
+- Example of Llama Response: 
+{json_data}
+
+
+{Dora_chunk}
+
+## Strict Compliance:
+Adhere to the rules strictly. Non-compliance will result in termination.  
+You are required to extract the properties of nodes, ensuring **clarity**, **consistency**, and **scalability** in labeling properties, using only nodes listed under **Allowed Node Types**.
+"""
